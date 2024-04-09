@@ -44,6 +44,13 @@ body{
     border-radius: 30px;
     margin-top: 70px;
 }
+.div3{
+  width: auto;
+  height: 10px;
+  background-color: #00bf8f;
+  border-radius: 30px;
+  margin-top: 70px;
+}
 .samp-man{
     margin-left: 600px;
     width: 900px;
@@ -185,4 +192,42 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-  
+@media screen and (max-width: 500px) {
+  .img {
+    width: 250px;
+    height: 100px;
+    margin-left: 70px;
+  }
+  .div1{
+    margin-top: 50px;
+  }
+  .home{
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .home1{
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .home2{
+    margin-left: 135px;
+    margin-top: 50px;
+  }
+  .div2{
+    width: 400px;
+    height: 220px;
+  }
+  .admin{
+    font-size: 20px;
+  }
+  .admin1{
+    font-size: 20px;
+  }
+  .samp-man{
+    margin-left: -490px;
+    margin-top: 10px;
+  }
+  .div3{
+    margin-top: 00px;
+  }
+}
